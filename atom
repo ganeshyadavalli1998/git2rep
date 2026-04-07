@@ -5,3 +5,19 @@ public class Main {
         System.out.println("Hello, World!");
     }
 }
+
+
+import java.util.Scanner; // Import the Scanner class
+
+public class Main {
+    public static void main(String[] args) {
+        // Create a Scanner object to read input
+        Scanner myObj = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+
+        // Read user input as a String
+        String userName = myObj.nextLine();
+        
+        System.out.println("Hello, " + userName + "!");
+    }
+}
